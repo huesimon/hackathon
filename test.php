@@ -15,12 +15,13 @@
     <title></title>
 </head>
 <body>
-<h2>Result</h2>
-<h1><?php echo $_POST["phoneInput"]; ?></h1>
 
 
-
-<div class="container">
+        <h1> <center><?php echo $_POST["phoneInput"]; ?> vurdering
+            </center></h1>
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-lg-12">
+        <div class="table-responsive">
     <table class="table table-hover">
         <thead>
         <tr>
@@ -50,20 +51,22 @@
         </tbody>
     </table>
 </div>
+    </div>
+</div>
 <div class="container">
     <div class="row">
-        <div class="span12">
+        <div class="col-xs-12 col-sm-6 col-lg-8">
             <div class="thumbnail center well well-small text-center">
-                <h2>Newsletter</h2>
+                <h2><?php echo $_POST["phoneInput"]; ?></h2>
 
-                <p>Subscribe to our weekly Newsletter and stay tuned.</p>
+                <p>Din telefon vil blive vurderet af en SUPERHELT!</p>
 
-                <form action="" method="post">
+                <form action="loading.html" method="post">
                     <div class="input-prepend"><span class="add-on"><i class="icon-envelope"></i></span>
                         <input type="text" id="" name="" placeholder="your@email.com">
                     </div>
                     <br />
-                    <input type="submit" value="Subscribe Now!" class="btn btn-large" />
+                    <input type="submit" value="Få din vudering på mail" class="btn btn-large" />
                 </form>
             </div>
         </div>

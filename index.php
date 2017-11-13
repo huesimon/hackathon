@@ -15,7 +15,7 @@
     <title></title>
 </head>
 <body>
-<h2>Genbrug 2</h2>
+<h2>RE <img src="http://www.clker.com/cliparts/2/C/U/Z/N/E/black-bicycle-right-way-md.png"; style="max-height: 50px;"></h2>
 
 
 
@@ -30,7 +30,7 @@
 
         <form action="test.php" method="post">
             <div class="form-group">
-                <label for="formGroupExampleInput">Din telefon</label>
+                <label for="formGroupExampleInput">Indsæt w/E</label>
                 <input type="text" class="form-control" id="phoneInput" name="phoneInput" placeholder="iPhone 5s, iPhone 7, iPhone X, ETC...">
 
             </div>
@@ -43,10 +43,20 @@
             <div class="checkbox">
                 <label><input type="checkbox" value="">Kan oplade</label>
             </div>
-            <button type="submit" class="btn btn-info">Info</button>
+
+            <div class="checkbox">
+                <label><input type="checkbox" value="">Knapper vikrer</label>
+            </div>
+
+            <div id="slidecontainer">
+            <label>Stand</label>
+                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+            </div>
+
+            <button type="submit" class="btn btn-info">Søg</button>
         </form>
     </div>
-    <div class="col-md-3">.col-md-3</div>
+    <div class="col-md-3"></div>
 </div>
 
 
