@@ -31,7 +31,7 @@
         <form action="test.php" method="post">
             <div class="form-group">
                 <label for="formGroupExampleInput">Din telefon</label>
-                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="iPhone 5s, iPhone 7, iPhone X, ETC...">
+                <input type="text" class="form-control" id="phoneInput" name="phoneInput" placeholder="iPhone 5s, iPhone 7, iPhone X, ETC...">
 
             </div>
             <div class="checkbox">
@@ -48,6 +48,8 @@
     </div>
     <div class="col-md-3">.col-md-3</div>
 </div>
+
+
 
 
 
