@@ -32,17 +32,19 @@
             <td>
                 <img src="https://www.power.dk/images/logos/powerdk/logo.svg">
                 </td>
-            <td>1338 kr.</td>
+            <td>1338 kr.
+
+                <button class="btn btn-info">Sælg her</button></td>
         </tr>
         <tr>
             <td>
                 <img src="https://www.elgiganten.dk/INTERSHOP/static/WFS/store-elgigantenDK-Site/-/-/da_DK/images/site/elgigantenDK/logo-large.png?v=3">
                 </td>
-            <td>1337 kr.</td>
-        </tr>
-        <tr>
-            <td>Dooley</td>
-            <td>july@example.com</td>
+            <td>1337 kr.
+
+                <button class="btn btn-info">Sælg her</button>
+            </td>
+
         </tr>
         </tbody>
     </table>
